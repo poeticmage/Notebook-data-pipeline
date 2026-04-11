@@ -4,3 +4,7 @@ This repository contains jupyter notebooks of data preprocessing of various data
 ### Awa2 (Animals with Attributes2)
 This dataset is primarily used in [Zero-shot Learning](https://en.wikipedia.org/wiki/Zero-shot_learning). The split that is used is the proposed split by Xian et al. in Zero Shot Learning -- the good, the bad and the ugly, so that testing images are not used in training the large backbones people often use.
 Reference: C. H. Lampert, H. Nickisch, and S. Harmeling. "Learning To Detect Unseen Object Classes by Between-Class Attribute Transfer". In CVPR, 2009
+
+### CUB-200 (Caltech-UCSD Birds 200)
+This dataset is used in [Zero-shot Learning](https://en.wikipedia.org/wiki/Zero-shot_learning). The notebook proposes a pipeline to prepare train and test loader for implementation in model training. The first 50 are used as test(unseen) data and rest 150 as train classes.
+Reference: Wah, C., Branson, S., Welinder, P., Perona, P., & Belongie, S.:The Caltech-UCSD Birds-200-2011 Dataset, California Institute of Technology, 2011.
